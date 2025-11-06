@@ -6,7 +6,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 export default function App() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="min-h-screen overflow-x-hidden bg-[#0a192f] text-white">
+
+
       <Hero />
       <About />
       <Skills />
